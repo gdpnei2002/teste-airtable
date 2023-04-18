@@ -14,7 +14,7 @@ import { AirTableConfig } from "@thinkam/typeairtable";
       },
     });
 
-  const nameList = ['Caio', 'Felipe'];
+  const nameList = ['Caio', 'Felipe', 'neilson'];
   const idList = [];
 
   await Promise.all(
@@ -27,6 +27,12 @@ import { AirTableConfig } from "@thinkam/typeairtable";
       idList.push(resultCreated.id)
     })
   );
+
+  await repository.update('recb2ysWlP4QIGghP', {
+    name: 'othername',
+    ordem: 4,
+    isActived: true,
+  });
 
   setTimeout(async () =>{
     await Promise.all(
