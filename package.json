@@ -1,0 +1,25 @@
+{
+  "name": "teste-airtable",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "@thinkam/typeairtable": "^0.0.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gdpnei2002/teste-airtable.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gdpnei2002/teste-airtable/issues"
+  },
+  "homepage": "https://github.com/gdpnei2002/teste-airtable#readme",
+  "devDependencies": {},
+  "keywords": [],
+  "type": "module",
+  "description": ""
+}
